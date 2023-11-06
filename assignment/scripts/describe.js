@@ -26,9 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// The declared variable name is Dane.
+// If we check and the variable equals to 'Mary',
+// the condition is false and code console.log 'Hi, Mary!'
+// else, if the condition is true, console.log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +46,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We have an undefined secret and a declared variable code of 123.
+// If we check and the value of the code variable equals to 123, assign 'super' to 'secret' and double the value of the code by 2, 
+// If the code is more than the value of 250, then 'duper's is reassign to 'secret'
+// however, because code 123 x 2 is less than 250, console.log(secret) = 'super'
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We have a declared variable of isStudent with a value of true, variable age of 34, variable of 55407 as the zip code.
+// If we check and the conditation of the value of isStudent is true and has a zip code of greater than 80000, then console.log 'You're a student on the West Coast!'
+// Else if we check and the condition of the value of isStudent is false or is less than age 30, code console.log 'Whate are your hobbies?'
+// Else if we check and the conidition of the value of isStudent is true, console.log 'Welcome to Prime!'
+// Else if none of the condition is ture, console.log How about the weather?'
 
 //CODE
 /*
@@ -136,6 +138,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
 
@@ -147,7 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -161,9 +164,9 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
-  console.log('no entry');
-} else {
   console.log('enter');
+} else {
+  console.log('no enter');
 }
 */
 
